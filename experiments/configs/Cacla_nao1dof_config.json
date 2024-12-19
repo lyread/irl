@@ -1,0 +1,84 @@
+{
+  "Experiment": {
+    "algorithm": "Cacla",
+    "env": "NAO1DoF",
+    "num_runs": 3
+  },
+  "Algorithm": {
+    "name": "Cacla",
+    "policy": "MLP",
+    "exploration": "gaussian",
+    "discount_factor": 0.977401,
+    "actor_config": {
+      "input_dim": 7,
+      "hidden_dim": [60, 75],
+      "output_dim": 1,
+      "activation_fn": "relu",
+      "output_probs": false
+    },
+    "critic_config": {
+      "input_dim": 7,
+      "hidden_dim": 30,
+      "output_dim": 1,
+      "activation_fn": "softplus",
+      "output_probs": false
+    },
+    "exploration_rate": 0.401488,
+    "learning_rate_a": 0.00027,
+    "learning_rate_c": 0.003318,
+    "tensorboard": true,
+    "device": "cpu",
+    "model_path": "cacla_nao1dof_models/"
+  },
+  "Agent": {
+    "max_episode_length": 40,
+    "num_epochs": 50
+  },
+  "Environment": {
+    "name": "NAO1",
+    "task_space_dims": 3,
+    "goal_zone_radius": 17.5,
+    "rescale_state": true
+  },
+  "Logger": {
+    "logdir": "cacla_nao1dof",
+    "categories": {
+      "learning_rewards": [],
+      "learning_steps": [],
+      "learning_discounted_rewards": [],
+      "learning_state_action_pairs": [],
+      "learning_state_visit_matrix": [4, 12],
+      "learning_success": [],
+      "learning_collision": [],
+      "learning_fell_into_cliff": [],
+      "test_rewards": [],
+      "test_steps": [],
+      "test_discounted_rewards": [],
+      "test_state_action_pairs": [],
+      "test_state_visit_matrix": [4, 12],
+      "test_success": [],
+      "test_collision": [],
+      "test_fell_into_cliff": [],
+      "cumulated_learning_steps": [],
+      "cumulated_test_steps": []
+    },
+    "multiple_run_categories": {
+      "learning_rewards": [],
+      "learning_steps": [],
+      "learning_discounted_rewards": [],
+      "learning_state_visit_matrix": [],
+      "learning_success": [],
+      "learning_collision": [],
+      "learning_fell_into_cliff": [],
+      "test_rewards": [],
+      "test_steps": [],
+      "test_discounted_rewards": [],
+      "test_state_visit_matrix": [],
+      "test_success": [],
+      "test_collision": [],
+      "test_fell_into_cliff": [],
+      "cumulated_learning_steps": [],
+      "cumulated_test_steps": []
+    }
+  }
+}

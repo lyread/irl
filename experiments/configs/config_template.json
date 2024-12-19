@@ -1,0 +1,20 @@
+{
+    "Algorithm": {
+        "your_parameters": "here"
+    },
+    "Environment": {
+        "your_parameters": "here"
+    },
+    "Agent": {
+        "your_parameters": "here"
+    },
+    "Experiment": {
+        "algorithm": "name of your algorithm",
+        "env": "name of your environment",
+        "num_episodes": "number of episodes",
+        "num_runs": "number of runs"
+    },
+    "Logger": {
+        "your logger parameters": "here"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "Algorithm": {
+        "name": "CaclaVar",
+        "policy": "MLP",
+        "exploration": "gaussian",
+        "discount_factor": 0.977401,
+        "actor_config": {
+            "input_dim": 7,
+            "hidden_dim": [
+                60,
+                75
+            ],
+            "output_dim": 4,
+            "activation_fn": "relu",
+            "output_probs": false
+        },
+        "critic_config": {
+            "input_dim": 7,
+            "hidden_dim": 30,
+            "output_dim": 1,
+            "activation_fn": "softplus",
+            "output_probs": false
+        },
+        "exploration_rate": 0.401488,
+        "learning_rate_a": 0.00027,
+        "learning_rate_c": 0.003318,
+        "beta": 0.027529,
+        "var": 2.039813,
+        "tensorboard": true,
+        "device": "cpu",
+        "model_path": "tmp/models/NAO4/"
+    },
+    "Environment": {
+        "name": "NAO4",
+        "task_space_dims": 3,
+        "goal_zone_radius": 17.5,
+        "rescale_state": true,
+        "dataset_path": "experiments/datasets/NAO_4dof.pkl"
+    },
+    "Agent": {
+        "num_epochs": 1,
+        "max_episode_length": 40,
+        "ask_likelihood": 0.6
+    },
+    "Experiment": {
+        "algorithm": "CaclaVar",
+        "env": "NAO4",
+        "num_runs": 2
+    },
+    "Logger": {
+        "logdir": "tmp/",
+        "suffix": "test"
+    }
+}

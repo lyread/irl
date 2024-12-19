@@ -1,0 +1,11 @@
+name: rl-framework
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip>=21.2
+  - python=3.11
+  - swig
+  - pip:
+    - -r requirements.txt
+

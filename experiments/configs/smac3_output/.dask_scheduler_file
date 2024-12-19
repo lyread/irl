@@ -1,0 +1,261 @@
+{
+  "type": "Scheduler",
+  "id": "Scheduler-1307ef42-efd4-45aa-8447-80ea776c44eb",
+  "address": "tcp://127.0.0.1:49839",
+  "services": {
+    "dashboard": 8787
+  },
+  "started": 1732029995.2145865,
+  "workers": {
+    "tcp://127.0.0.1:49856": {
+      "type": "Worker",
+      "id": 3,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "C:\\Users\\13478\\Desktop\\IRL_Project\\experiments\\configs\\smac3_output\\dask-scratch-space\\worker-rk3ousfh",
+      "name": 3,
+      "nthreads": 1,
+      "memory_limit": 6810682982,
+      "last_seen": 1732029999.5174282,
+      "services": {
+        "dashboard": 49857
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 307900416,
+        "time": 1732029999.5008628,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        }
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:49849"
+    },
+    "tcp://127.0.0.1:49863": {
+      "type": "Worker",
+      "id": 0,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "C:\\Users\\13478\\Desktop\\IRL_Project\\experiments\\configs\\smac3_output\\dask-scratch-space\\worker-svyp7gy2",
+      "name": 0,
+      "nthreads": 1,
+      "memory_limit": 6810682982,
+      "last_seen": 1732029999.618881,
+      "services": {
+        "dashboard": 49864
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 306937856,
+        "time": 1732029999.6046612,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        }
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:49842"
+    },
+    "tcp://127.0.0.1:49870": {
+      "type": "Worker",
+      "id": 2,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "C:\\Users\\13478\\Desktop\\IRL_Project\\experiments\\configs\\smac3_output\\dask-scratch-space\\worker-il269olf",
+      "name": 2,
+      "nthreads": 1,
+      "memory_limit": 6810682982,
+      "last_seen": 1732029999.7248297,
+      "services": {
+        "dashboard": 49871
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 307445760,
+        "time": 1732029999.7101123,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 7739309.901146908
+        }
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:49847"
+    },
+    "tcp://127.0.0.1:49873": {
+      "type": "Worker",
+      "id": 1,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "C:\\Users\\13478\\Desktop\\IRL_Project\\experiments\\configs\\smac3_output\\dask-scratch-space\\worker-sr0g3cme",
+      "name": 1,
+      "nthreads": 1,
+      "memory_limit": 6810682982,
+      "last_seen": 1732029999.7357671,
+      "services": {
+        "dashboard": 49874
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 307073024,
+        "time": 1732029999.7212858,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        }
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:49845"
+    },
+    "tcp://127.0.0.1:49876": {
+      "type": "Worker",
+      "id": 4,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "C:\\Users\\13478\\Desktop\\IRL_Project\\experiments\\configs\\smac3_output\\dask-scratch-space\\worker-79fokrtx",
+      "name": 4,
+      "nthreads": 1,
+      "memory_limit": 6810682982,
+      "last_seen": 1732029999.779013,
+      "services": {
+        "dashboard": 49877
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 307621888,
+        "time": 1732029999.7623305,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        }
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:49851"
+    }
+  }
+}

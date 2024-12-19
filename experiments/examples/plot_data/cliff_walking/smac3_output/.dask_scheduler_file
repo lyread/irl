@@ -1,0 +1,261 @@
+{
+  "type": "Scheduler",
+  "id": "Scheduler-384a4adf-4870-4961-8721-0bf1f45f4881",
+  "address": "tcp://127.0.0.1:58956",
+  "services": {
+    "dashboard": 8787
+  },
+  "started": 1732044869.9573817,
+  "workers": {
+    "tcp://127.0.0.1:58975": {
+      "type": "Worker",
+      "id": 1,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "C:\\Users\\13478\\Desktop\\IRL_Project\\experiments\\examples\\plot_data\\cliff_walking\\smac3_output\\dask-scratch-space\\worker-13z8a327",
+      "name": 1,
+      "nthreads": 1,
+      "memory_limit": 6810682982,
+      "last_seen": 1732044874.1643822,
+      "services": {
+        "dashboard": 58976
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 307372032,
+        "time": 1732044874.150488,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 8610.243006134817
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        }
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:58961"
+    },
+    "tcp://127.0.0.1:58982": {
+      "type": "Worker",
+      "id": 2,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "C:\\Users\\13478\\Desktop\\IRL_Project\\experiments\\examples\\plot_data\\cliff_walking\\smac3_output\\dask-scratch-space\\worker-moa_zrc2",
+      "name": 2,
+      "nthreads": 1,
+      "memory_limit": 6810682982,
+      "last_seen": 1732044874.236052,
+      "services": {
+        "dashboard": 58983
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 307429376,
+        "time": 1732044874.2002573,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        }
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:58963"
+    },
+    "tcp://127.0.0.1:58985": {
+      "type": "Worker",
+      "id": 3,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "C:\\Users\\13478\\Desktop\\IRL_Project\\experiments\\examples\\plot_data\\cliff_walking\\smac3_output\\dask-scratch-space\\worker-hcpsoc0_",
+      "name": 3,
+      "nthreads": 1,
+      "memory_limit": 6810682982,
+      "last_seen": 1732044874.225352,
+      "services": {
+        "dashboard": 58986
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 307245056,
+        "time": 1732044874.2136135,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        }
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:58965"
+    },
+    "tcp://127.0.0.1:58988": {
+      "type": "Worker",
+      "id": 0,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "C:\\Users\\13478\\Desktop\\IRL_Project\\experiments\\examples\\plot_data\\cliff_walking\\smac3_output\\dask-scratch-space\\worker-hmy19ylu",
+      "name": 0,
+      "nthreads": 1,
+      "memory_limit": 6810682982,
+      "last_seen": 1732044874.2484646,
+      "services": {
+        "dashboard": 58989
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 307412992,
+        "time": 1732044874.2357132,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        }
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:58959"
+    },
+    "tcp://127.0.0.1:58991": {
+      "type": "Worker",
+      "id": 4,
+      "host": "127.0.0.1",
+      "resources": {},
+      "local_directory": "C:\\Users\\13478\\Desktop\\IRL_Project\\experiments\\examples\\plot_data\\cliff_walking\\smac3_output\\dask-scratch-space\\worker-u7ay5rwk",
+      "name": 4,
+      "nthreads": 1,
+      "memory_limit": 6810682982,
+      "last_seen": 1732044874.3020527,
+      "services": {
+        "dashboard": 58992
+      },
+      "metrics": {
+        "task_counts": {},
+        "bandwidth": {
+          "total": 100000000,
+          "workers": {},
+          "types": {}
+        },
+        "digests_total_since_heartbeat": {},
+        "managed_bytes": 0,
+        "spilled_bytes": {
+          "memory": 0,
+          "disk": 0
+        },
+        "transfer": {
+          "incoming_bytes": 0,
+          "incoming_count": 0,
+          "incoming_count_total": 0,
+          "outgoing_bytes": 0,
+          "outgoing_count": 0,
+          "outgoing_count_total": 0
+        },
+        "event_loop_interval": 0.02,
+        "cpu": 0.0,
+        "memory": 307617792,
+        "time": 1732044874.2869384,
+        "host_net_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        },
+        "host_disk_io": {
+          "read_bps": 0.0,
+          "write_bps": 0.0
+        }
+      },
+      "status": "running",
+      "nanny": "tcp://127.0.0.1:58967"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+    "Algorithm": {
+        "name": "CaclaVar",
+        "policy": "MLP",
+        "exploration": "gaussian",
+        "discount_factor": 0.99,
+        "actor_config": {
+            "input_dim": 10,
+            "hidden_dim": [
+                100,
+                95,
+                30
+            ],
+            "output_dim": 7,
+            "activation_fn": "relu",
+            "output_probs": false
+        },
+        "critic_config": {
+            "input_dim": 10,
+            "hidden_dim": 60,
+            "output_dim": 1,
+            "activation_fn": "softplus",
+            "output_probs": false
+        },
+        "exploration_rate": 0.343936,
+        "learning_rate_a": 0.000075,
+        "learning_rate_c": 0.000992,
+        "beta": 0.01169,
+        "var": 1.496637,
+        "tensorboard": true,
+        "device": "cpu",
+        "model_path": "tmp/models/KUKA7/"
+    },
+    "Environment": {
+        "name": "KUKA7",
+        "task_space_dims": 3,
+        "goal_zone_radius": 150,
+        "rescale_state": true,
+        "dataset_path": "experiments/datasets/KUKA_7dof.pkl"
+    },
+    "Agent": {
+        "num_epochs": 11,
+        "max_episode_length": 60,
+        "ask_likelihood": 0.4
+    },
+    "Experiment": {
+        "algorithm": "CaclaVar",
+        "env": "KUKA7",
+        "num_runs": 300
+    },
+    "Logger": {
+        "logdir": "tmp/",
+        "suffix": "ask099"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "Experiment": {
+        "algorithm": "Cacla",
+        "env": "Cliff",
+        "num_episodes": 100,
+        "num_runs": 2
+    },
+    "Algorithm": {
+        "name": "Cacla",
+        "policy": "MLP",
+        "exploration": "gaussian",
+        "discount_factor": 0.99,
+        "actor_config": {
+            "input_dim": 2,
+            "hidden_dim": 128,
+            "output_dim": 1,
+            "activation_fn": "relu",
+            "output_probs": false
+        },
+        "critic_config": {
+            "input_dim": 2,
+            "hidden_dim": 128,
+            "output_dim": 1,
+            "activation_fn": "relu",
+            "output_probs": false
+        },
+        "exploration_rate": 0.5,
+        "learning_rate_a": 0.0001,
+        "learning_rate_c": 0.0001,
+        "tensorboard": true,
+        "device": "cpu",
+        "model_path": "tmp/logs/models/Cacla/"
+    },
+    "Agent": {
+        "max_episode_length": 30,
+        "test_every": 10
+    },
+    "Environment": {
+        "height": 4,
+        "width": 12,
+        "punishment": true,
+        "normalize": true
+    },
+    "Logger": {
+        "logdir": "tmp",
+        "categories": {
+            "learning_rewards": [],
+            "learning_steps": [],
+            "learning_discounted_rewards": [],
+            "learning_state_action_pairs": [],
+            "learning_state_visit_matrix": [
+                4,
+                12
+            ],
+            "learning_success": [],
+            "learning_collision": [],
+            "learning_fell_into_cliff": [],
+            "test_rewards": [],
+            "test_steps": [],
+            "test_discounted_rewards": [],
+            "test_state_action_pairs": [],
+            "test_state_visit_matrix": [
+                4,
+                12
+            ],
+            "test_success": [],
+            "test_collision": [],
+            "test_fell_into_cliff": [],
+            "cumulated_learning_steps": [],
+            "cumulated_test_steps": []
+        },
+        "multiple_run_categories": {
+            "learning_rewards": [],
+            "learning_steps": [],
+            "learning_discounted_rewards": [],
+            "learning_state_visit_matrix": [],
+            "learning_success": [],
+            "learning_collision": [],
+            "learning_fell_into_cliff": [],
+            "test_rewards": [],
+            "test_steps": [],
+            "test_discounted_rewards": [],
+            "test_state_visit_matrix": [],
+            "test_success": [],
+            "test_collision": [],
+            "test_fell_into_cliff": [],
+            "cumulated_learning_steps": [],
+            "cumulated_test_steps": []
+        }
+    }
+}

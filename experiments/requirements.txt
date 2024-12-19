@@ -1,0 +1,14 @@
+torch
+numpy
+pandas
+gymnasium
+rich
+tqdm
+overrides
+matplotlib
+scikit-learn
+seaborn
+plotly
+kaleido
+smac
+tensorboardX

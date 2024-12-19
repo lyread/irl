@@ -1,0 +1,86 @@
+{
+    "Algorithm": {
+        "name": "DSN",
+        "num_actions": 4,
+        "init_method": "nn",
+        "discount_factor": 0.99,
+        "learning_rate": 0.006,
+        "epsilon": 0.43,
+        "qnet_config": {
+            "input_dim": 2,
+            "hidden_dim": 56,
+            "output_dim": 4,
+            "activation_fn": "relu",
+            "output_probs": false
+        },
+        "buffer_capacity": 6000,
+        "batch_size": 88,
+        "device": "cpu",
+        "exploration": "e-greedy",
+        "model_path": "tmp/logs/models/DSN/",
+        "tensorboard": true
+    },
+    "Environment": {
+        "height": 4,
+        "width": 12,
+        "punishment": true,
+        "normalize": false
+    },
+    "Agent": {
+        "max_episode_length": 30,
+        "test_every": 10
+    },
+    "Experiment": {
+        "algorithm": "DSN",
+        "env": "Cliff",
+        "num_episodes": 2000,
+        "num_runs": 2
+    },
+    "Logger": {
+        "logdir": "tmp",
+        "categories": {
+            "learning_rewards": [],
+            "learning_steps": [],
+            "learning_discounted_rewards": [],
+            "learning_state_action_pairs": [],
+            "learning_state_visit_matrix": [
+                4,
+                12
+            ],
+            "learning_success": [],
+            "learning_collision": [],
+            "learning_fell_into_cliff": [],
+            "test_rewards": [],
+            "test_steps": [],
+            "test_discounted_rewards": [],
+            "test_state_action_pairs": [],
+            "test_state_visit_matrix": [
+                4,
+                12
+            ],
+            "test_success": [],
+            "test_collision": [],
+            "test_fell_into_cliff": [],
+            "cumulated_learning_steps": [],
+            "cumulated_test_steps": []
+        },
+        "multiple_run_categories": {
+            "learning_rewards": [],
+            "learning_steps": [],
+            "learning_discounted_rewards": [],
+            "learning_state_visit_matrix": [],
+            "learning_success": [],
+            "learning_collision": [],
+            "learning_fell_into_cliff": [],
+            "test_rewards": [],
+            "test_steps": [],
+            "test_discounted_rewards": [],
+            "test_state_visit_matrix": [],
+            "test_success": [],
+            "test_collision": [],
+            "test_fell_into_cliff": [],
+            "cumulated_learning_steps": [],
+            "cumulated_test_steps": []
+        }
+    }
+}
